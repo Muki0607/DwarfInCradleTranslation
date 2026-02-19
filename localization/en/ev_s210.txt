@@ -195,7 +195,7 @@ Oh thank goodness.
 Hey, Alice?
 
 *a_02
-<dwarf>?何 <W4><s4>ノエル。
+<dwarf>?何 <W4><s4><dwarf>Noel.
 
 *n_03
 Would you come with me, please? I’d like to learn more about you.

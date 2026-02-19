@@ -918,7 +918,7 @@ Only one way to find out! I’ll have to catch up with Ixia <c5>in the mountains
 
 *200/08_rope_pre n_00
 Oh, there’s a rope.
-...but not enough headroom to walk it.
+...but...what if I fall?
 
 *n_01
 I guess I could...straddle it and inch my way across...
