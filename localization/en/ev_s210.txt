@@ -1,0 +1,273 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// =====================
+// About <dwarf> tag::: ドワーフタグについて！
+// The Dwarf language is an original language that replaces hiragana with original symbols. 
+// PLEASE LEAVE sentences that begin with the <dwarf> tag untranslated.
+// 幽霊ちゃんの喋るドワーフ言語はひらがなを表意文字として置き換えた日本語ベースの独自言語です。
+// 「<dwarf>」タグで始まるセンテンスは翻訳せずそのままにしておいて下さい。
+// =====================
+
+// ========================================================
+// MARK : 脱出後
+// ========================================================
+
+*200/110_alice_rescue_after_00 n_00
+Thank you.
+Let me introduce myself; I’m Noel.
+
+// 子犬を見つける
+*a_00
+<dwarf><i>るべち</i>!
+
+//ルベっち、大丈夫だよ。
+// この人はたぶんいい人……だと思う
+*a_01
+<dwarf><i>るべち</i> び止 
+其え否び悪…私感
+
+*n_02
+He must be very important to you.
+
+*a_03
+<dwarf>?……
+
+*n_04
+My. Name. Noel.
+What’s...your...name?
+
+
+// *a_
+//名前を、聞かれてる? ワタシ……?
+
+*a_05
+<dwarf>?此え話探図声……</dwarf>
+<s2><W3>……<W3><s4>Naym?
+
+*n_06
+<s2>Noel.
+<W4><s9>No-eh-ll.
+
+
+//ここから読める言葉を使い始める
+*a_07
+<s6><m fadein>...Noh-well?
+
+*n_08
+Yes, that’s right.
+
+// 251109 hinayua ここは「音ではなく名前を返答する」という意味を理解してアリスが返答した、という部分なので、ドワーフ語のままでお願いします。
+*a_09
+<dwarf><s3>……<i><s8><W5>ありす</i>
+
+*n_10
+<s8>Al-iss...<W4>
+<s1>Your name is Alice?
+
+
+//*a_
+//……うん!
+
+*a_11
+<dwarf>……肯!
+
+
+// 杖の通信機から通信が入り始める
+
+*i_12
+<device><noise>Noel! Come in, Noel!</noise>
+Please respond!
+
+*n_12
+That’s Ixia’s voice!
+Guess I’ve got a signal again.
+
+*n_13
+This is Noel. I’ve retrieved the installer.
+
+
+//通信機の声を不思議がるアリス
+
+*a_14
+……?
+
+*n_15
+<think>But what should I do with Alice? Take her back with me?
+*
+<think>That would probably confuse and upset her. We don’t even speak the same language.
+
+*n_16
+<think>It might be best to leave her here.
+
+
+// ========================================================
+// MARK : ■解放ルート(400文字前後) 
+// ========================================================
+
+*200/115_alice_rescue_after_release n_00
+<think>I don’t think the others would react well to her. I’ll find a way to meet up with her later, just the two of us.
+
+*a_02
+<dwarf>?……
+
+*n_03
+Um...someone’s coming! Get out of here!
+
+*a_04
+<dwarf>?何</dwarf>
+
+*n_05
+<think>Words aren’t going to work. I’ll have to use gestures.
+
+*n_06
+<s5>Run, <W6>away, <W6> quickly.
+
+*a_07
+<dwarf><s5>………
+// 笑う
+*a_08
+<dwarf><I><m scary>嬉心心心!
+<m joy>?何本話君
+
+
+*n_09
+<I><think>Why is she laughing!?
+
+*n_10
+<s3>Others!
+<W2><MT l=2><W2>Coming!
+<W2><MT l=2><W2>Run!
+<W2><MT l=-1><W2>Quick!
+
+
+//……深刻な顔してる。そっか、笑わせたいわけじゃないんだね。
+*a_11
+<dwarf>君見求保光
+私理……君否感遊
+
+//危険を伝えてるのかな……それにさっきの声。このエルフの声じゃなかった
+//もしかして、誰か来るって言ってる?
+*a_12
+<dwarf>其え話何恐……
+ぜ 声私得少上時 其否び声此え
+*
+<dwarf>例肯……
+?此え話何人え来
+
+*i_13
+<device>Geez, way to make me worry!
+Wait right there! I’m heading your way and I’m bringing backup!
+
+*n_14
+Alice! Please!
+
+
+//……行っていいんだね。
+//……また会えるかな? ばいばい。
+
+*a_15
+<dwarf>君話了去私……
+求来時見私君
+
+*a_16
+<dwarf>悲去去
+
+*n_17
+Oh thank goodness.
+
+// ========================================================
+// MARK : ■捕縛ルート(400文字前後)
+// ========================================================
+
+*200/120_alice_rescue_after_arrest n_00
+<think>No, I can’t just let her go. I need to know more about her connection to the attack.
+
+*n_01
+Hey, Alice?
+
+*a_02
+<dwarf>?何 <W4><s4>ノエル。
+
+*n_03
+Would you come with me, please? I’d like to learn more about you.
+
+
+//……一緒に来いって言ってる?
+*a_04
+<dwarf>……?君話を君保進を何場
+
+
+//アリス、手をはたき返す
+
+//イヤッ! 私は行かない!
+//私はここから出たらきっと死んじゃう。だから!
+*a_05
+<dwarf><m scary>の! 私の進!
+えs未殺私s!!
+
+*n_06
+I know you’re scared...
+
+*n_07
+It’s okay, Alice. I won’t let anybody hurt you.
+
+*a_08
+<dwarf><s2>…………
+
+*n_09
+I promise.
+
+*a_10
+<s3><dwarf>…………<W2></dwarf>
+<s4c>Prom - <W4>iss?
+
+*n_11
+Yes, promise.
+
+
+//ノエルの手を取るアリス
+
+*n_12
+You’re safe with me.
+
+
+//わかった。信じる。
+*a_13
+<dwarf>私理了君……
+私見肯光
+
+
+// ========================================================
+// MARK : 不必要に外に出ようとする
+// ========================================================
+*200/198_goout n_00
+Let’s go back to Grazia for now.
+
+
+// ========================================================
+// MARK : 刺される
+// ========================================================
+
+*200/199_alice_unconscious n_00
+Ah!
+
+*n_01
+<think><s4>I can’t...move...
+
+*n_02
+<think><s4>Something stabbed me...
+*
+<think><W4><s5>...why...
+
+// 表示しないテキスト
+*kuromaku_03
+<W4>I’m sorry. I had no choice.

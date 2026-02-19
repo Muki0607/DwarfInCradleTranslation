@@ -1,0 +1,1135 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// =====================
+// About <dwarf> tag::: ドワーフタグについて！
+// The Dwarf language is an original language that replaces hiragana with original symbols. 
+// PLEASE LEAVE sentences that begin with the <dwarf> tag untranslated.
+// 幽霊ちゃんの喋るドワーフ言語はひらがなを表意文字として置き換えた日本語ベースの独自言語です。
+// 「<dwarf>」タグで始まるセンテンスは翻訳せずそのままにしておいて下さい。
+// =====================
+
+*200/01_notice_mana n_00
+This is...monster mana residue.
+
+*n_01
+That girl must’ve ran this way.
+I should mark their trail on my map.
+
+
+// ========================================================
+// MARK : アリスとの追いかけっこ
+// ========================================================
+
+*200/05_escape03 a_00
+<dwarf><m scary>え来了!
+
+*n_01
+There you are!
+
+// アリスが魔力植物を壊す
+*n_02
+...!?
+
+*n_03
+<m scary>Ahh!
+<m ple>W-wait! I didn’t pluck any - !
+
+*200/06_escape04 n_00
+That’s weird...
+Why didn’t they target her for plucking the mana plant?
+*
+Could it be because of the monster that’s following her?
+
+// 05_escape03の戦闘で負けた場合
+*n_50
+<m fadein>...uuu.
+Ow...
+*
+<m fadein>...I have to keep following her. I can’t give up now.
+
+
+// 251027 ここから追記＆ラベルが変わってます
+// 01_notice_mana のマップを見てない場合
+*n_01
+I should mark their trail on my map.
+
+*200/10_escape06 n_00
+<angry><m ple>Hey, wait!
+<m scary>I just wanna talk!
+
+
+//ノエルが迫って近寄るも、脇道となる横穴へ素早く飛び去って消えてしまう。
+//横穴まで近づいて悔しがるノエル。
+
+*n_01 
+How did she even fit through there?
+I’ll have to find a way around.
+
+
+// ひっ……　や……来ないで!
+*200/11_escape08 a_00
+<dwarf><angry><m cry>ゑひ… ゑ……
+<m ple>令のく!
+
+// また魔力植物を破壊する
+*n_01
+<angry>Ah! Not again!
+
+// ===== ===== ===== ===== ===== =====
+
+// =>n_04へ
+*200/12_escape08aft n_02
+<W2>Sigh, lost her again.
+<W3>She’s so fast...
+
+*i_03
+Noel Cornehl!
+Did you hear? The Bermit Attacker is on the run!
+
+*n_04
+Yes, but we don’t know for sure if she’s the reason for the attack.
+*
+Although, there is something different about her. The monsters didn’t attack her after she plucked a mana plant.
+
+*i_04
+<I><m ple>Th-then she must’ve masterminded the attack! <m0>She’s controlling the monsters!
+*
+I’m calling for backup! We’re gonna <m joy>beat the tar outta her<m0>!
+
+*n_05
+C-Calm down, Ixia...
+Let’s just take her in for questioning.
+
+*i_06
+Whatever! As long as she pays for her crimes!
+I’m going this way. Watch yourself!
+
+*n_07
+Ixia, wait! It’s dangerous! We should stick to...geh...<m fadein><small>ther...
+*
+Sigh, she’s gone. Should I follow after her?
+
+
+// 11_escape08に負けた時
+*i_50
+<m fadein><small>...nehl!
+Noel Cornehl!
+
+*n_51
+<m fadein>Uuu...
+<W3>Ixia? Are you here to rescue me?
+
+*i_52
+Not specifically, but...
+...what happened? How’d you get beat up by a bunch of pipsqueaks?
+
+*n_53
+<m scary>Cough, cough.
+<m0>I don’t know.
+
+*i_54
+<m ple>Anyway...
+<m0>Did you hear? The Bermit Attacker is on the run!
+
+// =>n_04へ
+
+
+// ===== ===== ===== ===== ===== =====
+// ここで下にいくとイクシャの救助
+*200/20_ixia_rescue_00 n_00
+No...don’t tell me -
+
+*200/21_ixia_rescue_01 i_00
+<m scary><s3>Ooh, <W3><m cry>ahn,
+<W3><m fadein>ah...<W4><m joy>Ohhh...
+
+*n_01
+<m ple>Hang in there, Ixia!
+
+
+*200/22_ixia_rescue_02 i_00
+<m fadein>Haa, <W2>hah...
+<W3>That was horrible...
+
+*n_01
+I tried to warn you...
+
+*i_02
+<I><m ple>Not fast enough, you didn’t!
+Speak up next time!
+
+*i_03
+<I><m ple>I’m gonna continue my search over here!
+
+*n_04
+Are you sure? What if you get captured again?
+
+*i_05
+<m scary><m fadein>What are you, my mother!?
+
+*n_06
+Off she goes.
+...again.
+
+
+//暗闇洞窟
+*200/25_darkarea n_00
+It’s so dark...
+
+*n_01
+That green glow must be from an old mana tree.
+<c1>If there’s any monsters nearby, they’ll definitely attack me on sight<c0>.
+
+*n_02
+It’s not much, but I could use my staff as a light source.
+If I <c5>prepare a shotgun<c0>, I’ll at least know what’s right in front of me.
+
+
+// =================================================
+
+//a「やぁああっ！ひっ、やだ、こわい……こないで……！」
+*200/30_escape12 a_01
+<dwarf><m ple>おおおお!<W2>
+<m scary>ゑひ の わかお …令のく…!
+
+// ここで引き返す
+*200/29_escape12turnback n_00
+I can’t leave now, she’s right there!
+
+// 子犬型がタックル
+*200/31_escape12aft a_00
+<dwarf><i>るべち</i>!
+少時間令戻此場!
+
+*n_02
+<m cry><s4>Ow, my butt...
+
+*n_03
+<W4><m scary>Uuu!
+<m ple>I was so close!
+
+*l_03
+<m ple>Noel!?
+Are you okay!?
+
+
+*200/32_escape12aft_alma n_00
+Alma!
+Did you see a girl run by just now!?
+
+*l_01
+Y-Yes, but I didn’t see which way she went.
+There was a monster with her and I got scared.
+
+*l_02
+Is she the one Ixia was talking about? The Bermit Attacker!?
+
+*n_03
+Yes, but...
+
+*n_04
+<think>She was crying...
+*
+<think>She can command monsters, but she seems terrified of us. Who is she?
+
+*l_03
+...Noel?
+
+*n_05
+Oh, sorry...
+I should get going.
+
+
+// 2回目
+
+*l_20
+There’s a beastman settlement up ahead. We can take a short break to rest and gather supplies, if you need to.
+
+
+// 水晶地帯で壊れたスキルチップを得る
+*200/65_skill_error n_00
+<angry><m scary><s2>Oog!
+<W2><s3><m cry>Ah...Gah!!
+
+*n_01
+<angry><s4><W3><m scary>What’s <W3>happen<s6><W4>ing...!?
+
+*cane_00
+<device>Malformed packets detected.
+Disconnecting from unknown device.
+*
+<device>Ejecting in:
+<W4>5, <W6>4, <W6>3, <W6>2, <W6>1.
+
+*n_02
+<s5>......<s3><m scary>Cough, <W2>cough...
+<s2><m fadein>Hah...
+
+*n_03
+<think>That’s never happened before.
+*
+<think>I’ll keep this skill chip for now...just in case.
+
+
+// 宝箱を無視をしようとした
+
+*200/m2d_out_mount_secret_glacier_0 n_00
+<think>Judging by the color, there’s a skill chip in that box.
+*
+<think>It might be something I can use to help catch that girl.
+
+
+// ==========================================
+// 直後、またアリスの姿を見る。いい加減に捕まって！
+// ==========================================
+
+*200/70_escape_floor n_00
+Hold it right there!
+
+//*ひっ、怒ってるっ……!　にげ、にげな、きゃ。
+
+*a_01
+<dwarf>ゑひ… そえ発ふ!
+求 私求去少時間!
+
+// 後退りするアリス。行き止まりに背があたり、恐慌する
+
+//*ひっ、やだ! あ……ぁあ……!　た、たすけて、ころ、こ、ころされる…。
+
+*200/71_escape_floor_deadend a_02
+<dwarf><m cry><W3>悲嘆…!
+<W3>道…止…
+
+*a_03
+<dwarf><m fadein>何人…<W3>
+令助私…… <W3>私未受殺此場……
+
+*n_03
+Calm down, I’m not going to hurt you.
+*
+I just want to talk.
+
+*a_04
+<dwarf><s6>…………………<s1>
+<m scary><i>るべち</i>!!
+
+
+// 子犬型、ノエル拘束
+
+*200/72_escape_floor_deadend_absorb n_05
+<angry><m cry>Guh!
+<m scary>Ah! Ow! Stop!
+
+
+//あ、……それ以上だめ!　でも離したら……どうしよう、どうしよう!
+
+*a_06
+<dwarf>嘆… <m scary>令忍!
+<m0>令否戦比多…!
+*
+<dwarf><m fadein>然例君去其え…
+?何物求実私
+
+*n_07
+<think><m fadein>This is no ordinary monster!
+
+*n_08
+<think><m scary><m fadein>I can’t break free...
+I’m gonna have to -
+
+//バースト使用。床崩壊
+
+*200/73_escape_floor_deadend_break n_05
+<m ple>Oh no!
+
+*a_06
+<dwarf><m ple><angry>悲嘆嘆嘆嘆嘆!!
+
+
+// ========================================================
+// MARK : ボスエリアに落下
+// ========================================================
+
+*200/80_spidercave0 n_00
+<m scary><W4><s4><m fadein>Ow, ow, ow...
+
+*n_01
+<m ple>My staff! Where’s my staff!?
+<W3>Come!
+
+*n_02
+<think>Phew...
+
+*n_02_2
+<think>Well, I’m still in one piece.
+That was a long fall.
+
+*n_03
+<think>There’s mana plants everywhere!
+*
+<think>All the noise we made might have attracted more monsters. I should keep quiet.
+
+
+// ううう……。
+*200/81_spidercave1 a_01
+<dwarf><s3>おおお……
+
+*a_04
+<dwarf><m fadein><s3>苦…… <W3>悲嘆嘆……
+
+*n_06
+Are you alright?
+
+*n_07
+I can get you medical care, but first, hand over the installer.
+
+*a_07
+<dwarf><angry>ひ嘆……!
+<W4><m cry>?何
+<W4><s3><m joy>?<i><W4></dwarf>in...stall...
+
+*a_08
+<dwarf><m ple>の!
+<W3>の 令のく!
+
+*n_08
+Yes, that’s what I’m here for! Come on, there’s nowhere else to run!
+
+
+// -----
+// アリスは首を振り、床を指さす。端末はノエルの背後に落ちていた。
+// -----
+//やぁ……！ あ、うしろ、うしろ見て！
+*a_09
+<dwarf><angry><m scary>の……! 
+
+*a_10
+<dwarf><m joy>嘆 後 令見後!
+
+//アリス、指差し後退り。
+
+*n_10
+Huh?
+Behind me?
+
+*n_11
+<think>She’s slippery. I shouldn’t take my eyes off her.
+
+*n_12
+No! I’m not falling for any more of your tricks!
+
+
+// あるから、あるからぁ!
+*a_12
+<dwarf><angry><m ple>私了発其!
+私了話を私了発!
+ 
+ // もう一度話すと
+*a_20
+<dwarf><angry><m ple>後 令見後!
+<W2>後 令見後!
+
+*n_21
+...?
+
+// 見つけて回収
+*200/79_pickup_magicdevice n_30
+Oh, it really was there. She must’ve dropped it.
+
+*n_31
+Good thing I got it back before someone used it. Without any security settings, it could’ve easily fallen into the wrong hands.
+
+// ルベっちどこ……。
+
+*200/82_spidercave2 a_00
+<dwarf><s2>嘆……悲嘆……
+<W3>?何場び<i>るべち</i>
+
+//あの子がいないと、わたし……
+*a_02
+<dwarf><m fadein><s3>私求其仲……
+
+*n_03
+I can’t understand you.
+*
+Were you trying to trap me down here?
+
+
+//杖を構えてにじり寄るノエル
+//完全に腰を抜かしてぐしゃぐしゃに泣きじゃくるアリス
+
+//あの、わたし……ルベっちがいないと生きられなくて……。
+*a_04
+<dwarf><s2><m fadein>?何本話君
+*
+<dwarf><s3><m fadein>比其… 私求<i>るべち</i>をび共…
+
+*n_05
+Are you the one who attacked Bermit?
+
+
+// あの子がいなくて、その……ぐすっ探さないと……だからぁ……。
+*a_06
+<dwarf><m scary>其仲のびち…
+嘆… 私求発其仲…
+
+*n_07
+What’s wrong? I told you, I’m not going to hurt you.
+
+
+//杖の間合いまで近寄るノエル。
+//アリス完全にパニックに陥り、対話不可能。
+
+// ごめんなさい!ごめんなさいごめんなさい!
+*a_08
+<dwarf><angry>の <m cry>何を…… <m scary>恐恐! <W3>私与恐!
+<W3>私与恐私与恐を君!
+
+*n_09
+<angry><m scary>H-Hey…!
+<W2><m fadein>Keep it down.
+*
+I want to hear what you have to say, but there might be monsters around.
+
+
+//うずくまったまま横になり、膝と腕で顔を隠す。
+//できる限り生きることから目を逸らした姿勢。
+
+//ぐすっ、ごめんなさい……ごめんなさい……
+*a_10
+<dwarf><s3><m cry>悲嘆…… <m fadein>私与恐……
+<W2>私与恐恐恐……
+
+*n_11
+......
+
+
+*200/83_spidercave_flashback n_00
+One, two, three...yay!
+*
+I got all the mushrooms sister asked for!
+
+*n_01
+<I><angry><W2><m scary>Wah!
+
+*n_02
+<W5><m fadein><s3>Owie...
+
+*n_03
+<W4><s4>Ah! A mana plant!
+
+*n_05
+Eee!
+
+*n_11
+<s3><m scary>Noooo! Get away!
+
+*n_12
+<I><m scary>Sister!
+*
+<s5><m fadein>Where are you?
+<W2><s2><m ple>Help meee!
+
+*v_11
+<m scary><angry>Hi-yah!!
+
+//爆弾投げ
+//一瞬だけ本気モード（真面目）なレヴィ
+
+*v_12
+Are you okay, Noel!?
+
+*n_13
+<m scary><angry>Sisterrrrr!
+
+*v_14
+There, there. It's okay. I know you’re scared.
+*
+I’m here now.
+*
+You’re safe with me.
+
+*n_15
+<m scary><s2>(sniffle)
+<W5><m cry><s6>Waahhh......
+
+
+*200/84_spider_comes n_00
+<think><s6>......
+<s2>Her monster was trying to protect her...like my sister did for me...
+
+
+//杖を下ろす
+//直後、大きな魔族の鳴き声・唸り声
+*a_01
+<dwarf><angry>の!
+
+*n_02
+<m ple><angry>!?
+
+*n_03
+<think>Oh no! That must be the monster that lives here!
+
+*a_04
+<dwarf><m scary><angry>令否実!!
+令与戻私!!
+
+*n_05
+<think>This is bad!
+<W3><m scary>What should I do!?
+
+*n_06
+<s5><W4>Stay calm.
+You can do this.
+
+*n_07
+<s2><W4>I know I’m supposed to return the installer...
+but this is an emergency!
+
+*n_08
+Noel Cornehl, Cadet Class III-F,
+deploying new magic to defeat the monster!
+
+
+//登録装置使用、スキル取得
+//ボス戦開始
+
+*200/85_spider_activate n_00
+This is the same magic Tigrina used when we were defending Bermit!
+
+*n_01
+<angry>Alright...let’s dance!
+
+
+// ========================================================
+// MARK : 救出
+// ========================================================
+// もう食べられないよ
+
+*200/90_spider_after a_00
+<dwarf><m fadein><s3>大父……
+私力否得比多……
+
+// 起きる
+*a_01
+<dwarf>!
+
+*n_01
+It’s okay.
+You’re not hurt, are you?
+
+// 私を殺さない……？どうして？
+*a_02
+<dwarf>?君否殺私
+?……何故
+
+*n_03
+I know you didn't summon that monster to attack me.
+*
+It was just defending its lair.
+*
+Come on, let’s find a way out together.
+
+*200/101_see_ladder n_00
+I can see light peeking through. That must be the way out.
+*
+There’s some scaffolding and a rope ladder wrapped around it up there, but I don’t see any way to reach it.
+
+*n_01
+I could call for help, but I’m not getting a Wi-Fu signal down here.
+
+// ものを渡す時に関係ないものを与え続けた時のヒント
+*n_10
+Wait, didn’t I pick up a <c5>strange skill chip<c0> while I was chasing her?
+*
+Maybe she’ll know what to do with it.
+
+// 不適合チップを渡したあとののヒント
+*n_20
+She looks nervous. Maybe I should get out of the way and <c5>observe her<c0> for a moment.
+
+
+*200/102_spider_giving a_00
+<dwarf><m scary><angry><m scary>嘆嘆嘆嘆嘆嘆!
+
+*a_01
+<dwarf>?……
+
+*n_02
+<think>I thought pinching her cheek might cause her true nature to come out.
+
+
+//2回目
+
+*a_10
+<dwarf><angry><m scary>嘆!
+私感苦苦苦苦苦!!
+
+*a_11
+<dwarf>え……
+?何故実此を私 //なんでこんなことするの?
+
+*n_12
+<think>She cries when she’s in pain...just like us elves...
+
+//3回目
+
+*a_20
+<dwarf><angry>苦苦苦!!
+流令否実其!!
+
+*a_21
+<dwarf><m fadein><s3>苦…… 私感苦
+*
+<dwarf><m fadein><s3>何故? 何故?
+令助…… 大父……
+ 
+*n_22
+<think>I don’t think this is bringing anything out.
+...except tears.
+
+
+// ジュース関連
+
+*n_50
+W-What do you think of this?
+
+*a_51
+<dwarf>?何……
+?魔光……
+
+*a_52
+<dwarf><angry><m scary>の! の! 
+令のく!
+魔光未殺私s!
+
+*n_53
+<think>If she were a monster, she’d be having a more positive reaction.
+*
+<think>Instead she just seems disgusted.
+
+*n_55
+<think>...I probably could’ve figured that out without showing her something weird.
+
+
+//魔族由来の素材を渡す
+
+// わかるよ、あなたはエルフだから…魔族を殺すんだよね。
+*a_61
+<dwarf><s5>…………
+
+*a_62
+<dwarf><W4><s3>私力進 故君びえ
+私見求を君殺魔種。
+
+*n_63
+<think>She looks sad...
+
+
+// ノエルの服を渡す
+*n_80
+...Hmm...
+
+*a_81
+<dwarf><m fadein>え……
+*
+<dwarf><m fadein>?何故君去上服……
+?何故君与其を私…。
+
+*a_82
+<dwarf><m fadein>?君今遊以私。
+
+*n_83
+<think>...I think she’s trying to ask me something.
+
+// 頷く
+*a_84
+<dwarf><m fadein>……私力否理を君理。
+
+ // 首を振る
+*a_85
+<dwarf><m fadein>?私力否……
+?何故君与其を私……………。
+
+*n_86
+<think>She looks confused.
+
+*n_87
+<think>Which is fair. I don’t really know why I’m doing this either.
+*
+<think>I’m getting cold. I should take my clothes back.
+
+
+// 下着を渡す
+*n_90
+W-What do you think of these?
+
+*a_91
+<dwarf>?此び君的下服……
+ // これはあなたの下着?
+ 
+*n_92
+There’s traces of my mana on them. We could use them to lure your monster friend back.
+
+ // ……えるふは、下着を着なくて平気なの?
+ 
+*a_93
+<dwarf>?えの見求其下服
+
+*n_94
+...
+*
+Yeah, I’m not sure what I was thinkin’ there.
+
+
+// その他
+
+*n_100
+What do you think of this?
+
+*a_101
+<dwarf>嘆嘆……
+私力否理そ
+
+*n_102
+...
+
+*a_103
+<dwarf>……
+
+*n_104
+<think>I don’t think she’s interested.
+
+
+// 魚、ごはん
+*n_110
+Are you hungry?
+
+*a_111
+<dwarf>……糧
+
+*a_111_2
+<dwarf><s2>求例此場保魚忍飯受大父作
+
+*a_112
+<dwarf><m cry><s3>嘆……
+大父……
+
+*n_113
+Why is this making her cry?
+
+
+// デバイスを渡す
+
+*200/95_spider_give_device n_200
+Do you know what this is?
+
+*a_201
+<dwarf>?……君与是を私
+
+*a_202
+<dwarf>…………
+
+*n_203
+<think>She took it...
+She must be interested.
+
+*a_204
+<dwarf>?何物受連実……
+
+*n_205
+Oh wow! You can use it.
+
+*n_206
+...she keeps glancing at me.
+Maybe I should get out of the way and <c5>observe her<c0>.
+
+
+*200/104_spider_waiting a_00
+<dwarf><m ple><i>るべち</i>……?び此場　
+<i>るべち</i>!
+
+*a_01
+<dwarf><m fadein><i>るべち</i>……?何場び君。
+
+*n_02
+I think she’s calling for someone. But, there doesn’t seem to be anyone else around.
+*
+I should probably stick with her.
+
+
+// スキルチップを渡した後に待機を選ぶ
+// アリスがスキルを発動し大ジャンプして脱出
+
+*200/105_shinebooster n_00
+Amazing!
+
+*n_01
+But...now how am I supposed to get out?
+
+//ロープが降りてくる
+
+*n_02
+O-Oh...
+
+
+// ========================================================
+// MARK : 必要なアイテム(不適合チップ)を持たずボスエリアに入ろうとした場合の処理
+// ========================================================
+
+*200/150_no_item n_00
+She’s just up ahead, but...
+*
+It feels like I’m not ready.
+I think I’m <c1>forgetting something<c0>.
+
+*n_01
+Maybe I should investigate the beastman settlement a bit more.
+
+
+// ========================================================
+// MARK : 順番が前後しますが……防衛戦終了直後の、街からの出陣テキスト
+// ========================================================
+
+*200/00_from_city n_00
+Ah, feels like I’ve already wasted too much time.
+
+*n_01
+The attack, the red-eyed girl, and the stolen installer...
+*
+What’s the connection between them?
+
+*n_02
+Only one way to find out! I’ll have to catch up with Ixia <c5>in the mountains<c0>!
+
+
+// ========================================================
+// MARK : アリスとの追いかけっこ(中盤ロープ綱渡り)
+// ========================================================
+
+*200/08_rope_pre n_00
+Oh, there’s a rope.
+...but not enough headroom to walk it.
+
+*n_01
+I guess I could...straddle it and inch my way across...
+
+
+// 渡った後
+*200/08b_rope_aft n_00
+<think><s3><m cry>Ah...haa...
+<W4>Fuwahh...
+<W2>What were those knots for?
+
+*n_01
+<m scary><W3><s2>I-If you think that will stop me...you’re wrong!
+
+*n_02
+More mana residue.
+She’s still close by!
+
+
+// ===== ===== ===== ===== ===== =====
+// 260112 イクシャの救助にちょっと追加です。 ※「う、うるさい！そんな目で見ないでよ！」の次に挟まります
+// ===== ===== ===== ===== ===== =====
+
+// ハニカム型登場
+*200/22b_ixia_rescue_02 i_00
+<angry>AH! <m scary>It came back!
+
+*n_01
+It was here before?
+
+*i_03
+It trapped me in some kind of bubble. That’s when the other monsters -
+*
+<angry>Oh, why am I explaining this!?
+<m ple>RUN!
+
+
+// 逃走
+*n_10
+Whoof, that was close.
+
+*i_11
+We can’t defeat those flying-types without <c1>some kind of gravity magic<c0> like that Loudmouth McWeirdo girl was using.
+*
+Coincidentally, can you guess what kind of prototype was stolen from the armory?
+
+*n_12
+<think>The installer...
+
+*n_13
+<think>But, why would she steal something like that? She didn’t even have a staff to use it with.
+
+*i_14
+<angry>Now I’m <m scary>really<m0> starting to get mad!
+First she steals from us, then she gets us caught up in traps!
+
+*n_15
+I don’t think that last one was her fault.
+
+*i_16
+<angry><I>Yes it <m cry>wa-A-a-A-s!!
+
+*i_17
+Look, until we can get ahold of some gravity magic -
+*
+- stay away from places with that <c1>sticky orange slime<c0>!
+
+*i_17_2
+That girl is probably doing the same, which should make tracking her easier.
+
+*n_18
+That sounds like a good idea.
+*
+Where was this insight <i>before</i> you ran into the hive?
+
+*i_19
+<m cry>Gaw~!
+<m0>You are such a smart aleck!
+
+// →とにかく私はこの先に犯人の捜索をするから！に続く
+
+
+// ===== ===== ===== ===== ===== =====
+// 260114 二重入力のチュートリアルのための追加です。アルマちゃん
+// ===== ===== ===== ===== ===== =====
+
+*200/35_alma_magic l_00
+<angry><m ple>No-eh-l-l-l!
+
+*n_01
+What’s wrong, Alma?
+
+*l_02
+N-Nothing, I just...
+forgot to give you this!
+
+*l_03
+It’s an installer. Someone asked me to bring it to you.
+
+*n_04
+Wow! Thank you so much!
+
+// 取る前に話しかける
+*n_10
+Sorry for making you go to all the trouble to bring this to me.
+
+*l_11
+It’s fine...
+
+*n_12
+Are you feeling alright?
+
+*l_13
+Oh, uh, yeah! I think I’m just still in shock after running into that monster.
+
+//離れようとする
+*n_20
+I can’t just walk away from Alma after all the trouble she went through to bring that installer to me.
+
+
+// フラワリーサークル登録
+*200/36_alma_magic_learned l_00
+It’s a support spell. Helps keep you in the fight.
+
+*n_00
+How so?
+
+*l_11
+Oh, um...want me to show you how to use it?
+
+// YES
+*n_20
+It looks like it set itself to<key FLOWERYCIRCLE/>.
+
+*l_21
+That’s right. Let’s practice casting it.
+
+*l_22
+We’ll take it slow since this is your first time.
+
+// 唱える・普通
+*l_31
+<m fadein><s4>Wow!
+<W2><s1>I can feel its soothing aura all the way over here!
+
+*n_32
+I feel strong, but also, at peace.
+Looks like it has monster weakening effects, too. This could come in handy.
+
+
+// => n_43へ
+
+// 唱えたがロックオン性能が悪い杖で唱えて範囲がバカ狭い場合
+*n_41
+Is it supposed to be this small?
+
+*l_42
+It <c5>scales with your staff’s lock on stat<c0>.
+*
+You just need to try using a different one.
+
+*n_42
+I see.
+Well, that’s okay.
+
+*n_43
+I’ll experiment with it later. Thanks for bringing it to me!
+
+*l_44
+My pleasure! I’m always happy to help!
+
+
+// 牧場主の獣人が話しかけてくる
+*mb_50
+You girls from the city?
+
+*n_51
+Oh, sorry mister beastman. I forgot we need to be careful with magic up here.
+
+*mb_52
+No worries. My chickens appreciated it.
+*
+Just be more careful if you decide to head into our little settlement.
+
+*n_52
+I will!
+
+
+// 使い方→NO 
+
+*n_100
+That’s okay. It’s always more fun to figure things like this out on my own.
+
+*l_101
+You’re so awesome!
+
+
+//既に二列目に色々置いているために
+//フラワリーサークルが一列目に来ている場合...
+// おそらく、通常の方法ではここは再生できません。
+
+*l_150
+It usually goes in the second row of spell slots of your staff, but -
+
+*l_151
+- it looks like you already customized yours.
+
+*l_152
+I don’t think you need my help figuring it out.
+
+*n_153
+Yeah, but...thank you for offering.
+
+// l_101へ
