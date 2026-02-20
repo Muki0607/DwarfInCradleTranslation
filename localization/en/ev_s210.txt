@@ -227,8 +227,9 @@ It’s okay, Alice. I won’t let anybody hurt you.
 I promise.
 
 *a_10
-<s3><dwarf>…………<W2></dwarf>
-<s4c>Prom - <W4>iss?
+<s3><dwarf>…………<W2>
+<s4>?</dwarf>Prom - <W4>iss
+
 
 *n_11
 Yes, promise.
