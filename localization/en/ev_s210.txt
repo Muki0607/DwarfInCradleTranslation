@@ -221,7 +221,12 @@ Hey, Alice?
 
 *a_02
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <dwarf>?何 <W4><s4>ノエル。
+=======
+What’s up, <W4><s4>Noel?<s1>
+<dwarf>?何 <W4><s4><i>のえる</i>
+>>>>>>> Stashed changes
 =======
 What’s up, <W4><s4>Noel?<s1>
 <dwarf>?何 <W4><s4><i>のえる</i>
@@ -261,8 +266,9 @@ I promise.
 *a_10
 <s3>............<W2>
 <s4>Pro - <W4>miss？
-<s3><dwarf>…………<W2></dwarf>
-<s4c>Prom - <W4>iss?
+<s3><dwarf>…………<W2>
+<s4>?</dwarf>Prom - <W4>iss
+
 
 *n_11
 Yes, promise.
