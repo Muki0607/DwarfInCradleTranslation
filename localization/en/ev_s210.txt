@@ -220,17 +220,8 @@ Oh thank goodness.
 Hey, Alice?
 
 *a_02
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<dwarf>?何 <W4><s4>ノエル。
-=======
 What’s up, <W4><s4>Noel?<s1>
 <dwarf>?何 <W4><s4><i>のえる</i>
->>>>>>> Stashed changes
-=======
-What’s up, <W4><s4>Noel?<s1>
-<dwarf>?何 <W4><s4><i>のえる</i>
->>>>>>> Stashed changes
 
 *n_03
 Would you come with me, please? I’d like to learn more about you.
