@@ -32,4 +32,4 @@ Just put the "localization" folder into the game's "StreamingAssets" directory, 
 
 # ドワーフ・イン・クレイドル・ツウヤク
 
-![](alphabet.png)
+![](DICT_logo.png)
