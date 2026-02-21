@@ -306,6 +306,7 @@ Hold it right there!
 *a_01
 Ahh...That elf looks angry!
 I need to...I need to escape quickly!
+
 <dwarf>ゑひ… そえ発ふ!
 求 私求去少時間!
 
@@ -331,7 +332,7 @@ Calm down, I’m not going to hurt you.
 I just want to talk.
 
 *a_04
-<s6>.....................<s1>
+<s6>...............<s1>
 <m scary><i>Rabbie</i>!!<m0>
 <dwarf><s6>…………………<s1>
 <m scary><i>るべち</i>!!
@@ -483,8 +484,7 @@ Good thing I got it back before someone used it. Without any security settings, 
 
 *200/82_spidercave2 a_00
 <s2>Ah......Ahh......<W3>Where is <i>Rabbie</i>?
-<dwarf><s2>嘆……悲嘆……
-<W3>?何場び<i>るべち</i>
+<dwarf><s2>嘆……悲嘆……<W3>?何場び<i>るべち</i>
 
 //あの子がいないと、わたし……
 *a_02
@@ -624,8 +624,7 @@ You’re safe with me.
 
 *a_04
 <m scary><angry>Don’t do that!! Put me down!!
-<dwarf><m scary><angry>令否実!!
-令与戻私!!
+<dwarf><m scary><angry>令否実!! 令与戻私!!
 
 *n_05
 <think>This is bad!
@@ -667,8 +666,8 @@ I can’t eat more......
 
 // 起きる
 *a_01
-!
-<dwarf>!
+!!!
+<dwarf>!!!
 
 *n_01
 It’s okay.
@@ -723,8 +722,7 @@ She looks nervous. Maybe I should get out of the way and <c5>observe her<c0> for
 
 *a_10
 <angry><m scary>Ouch! That huuuuurts!!
-<dwarf><angry><m scary>嘆!
-私感苦苦苦苦苦!!
+<dwarf><angry><m scary>嘆! 私感苦苦苦苦苦!!
 
 *a_11
 Elf......Why did you do that?
@@ -738,8 +736,7 @@ Elf......Why did you do that?
 
 *a_20
 <angry>Owwwww! Don’t do that again!!
-<dwarf><angry>苦苦苦!!
-流令否実其!!
+<dwarf><angry>苦苦苦!! 流令否実其!!
 
 *a_21
 <m fadein><s3>It hurts...It really hurts...
@@ -807,6 +804,7 @@ so killing monsters is probably normal for you.
 <dwarf><m fadein>え……
 *
 <m fadein>Why did you...take off your top and give it to me...?
+*
 <dwarf><m fadein>?何故君去上服……
 ?何故君与其を私…。
 
@@ -820,11 +818,13 @@ so killing monsters is probably normal for you.
 // 頷く
 *a_84
 <m fadein>......I can’t understand what you mean by that.
+*
 <dwarf><m fadein>……私力否理を君理。
 
  // 首を振る
 *a_85
 <m fadein>I can't...? Why did you give that to me…？
+*
 <dwarf><m fadein>?私力否……
 ?何故君与其を私……………。
 
@@ -853,6 +853,7 @@ There’s traces of my mana on them. We could use them to lure your monster frie
  
 *a_93
 Is it okay if you elves don’t wear underwear?
+*
 <dwarf>?えの見求其下服
 
 *n_94
@@ -892,6 +893,7 @@ Food......
 
 *a_111_2
 <s2>How wonderful it would be to enjoy a meal prepared by Father using the fish from here.
+
 <dwarf><s2>求例此場保魚忍飯受大父作
 
 *a_112
@@ -933,9 +935,8 @@ Maybe I should get out of the way and <c5>observe her<c0>.
 
 
 *200/104_spider_waiting a_00
-<m ple><i>Rabbie</i>......? Are you there? <i>Rabbie</i>！
-<dwarf><m ple><i>るべち</i>……?び此場　
-<i>るべち</i>!
+<m ple><i>Rabbie</i>...?Are you there?<i>Rabbie</i>！
+<dwarf><m ple><i>るべち</i>……?び此場 <i>るべち</i>!
 
 *a_01
 <m fadein><i>Rabbie</i>......Where are you?
