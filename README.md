@@ -63,5 +63,3 @@ Therefore, this project tries to add the translation before Alice's each sentenc
 3. それらを ```AliceInCradle_Data/StreamingAssets/localization``` フォルダ内に貼り付け、「ファイルの置換またはスキップ」の画面で「コピー先のファイルを置き換える」を選択してください。（このようなダイアログが表示されない場合、誤ったフォルダに貼り付けている可能性があります。）
 
 ![](DICT_Logo.png)
-
-

@@ -79,6 +79,7 @@ I’ll have to find a way around.
 // ひっ……　や……来ないで!
 *200/11_escape08 a_00
 <angry><m cry>Ahh...Ah......<m ple>Please don’t come any closer!
+*
 <dwarf><angry><m cry>ゑひ… ゑ……
 <m ple>令のく!
 
@@ -202,6 +203,7 @@ If I <c5>prepare a shotgun<c0>, I’ll at least know what’s right in front of 
 *200/30_escape12 a_01
 <m ple>Uuuuuuuu!<W2>
 <m scary>Ahh, no, I'm so scared...Please don’t come any closer...!
+*
 <dwarf><m ple>おおおお!<W2>
 <m scary>ゑひ の わかお …令のく…!
 
