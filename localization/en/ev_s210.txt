@@ -27,11 +27,14 @@ Let me introduce myself; I’m Noel.
 
 // 子犬を見つける
 *a_00
+<i>Rabbie</i>!
 <dwarf><i>るべち</i>!
 
 //ルベっち、大丈夫だよ。
 // この人はたぶんいい人……だと思う
 *a_01
+<i>Rabbie</i>, calm down.
+That elf isn’t bad...I think.
 <dwarf><i>るべち</i> び止 
 其え否び悪…私感
 
@@ -39,6 +42,7 @@ Let me introduce myself; I’m Noel.
 He must be very important to you.
 
 *a_03
+......?
 <dwarf>?……
 
 *n_04
@@ -50,8 +54,10 @@ What’s...your...name?
 //名前を、聞かれてる? ワタシ……?
 
 *a_05
-<dwarf>?此え話探図声……</dwarf>
-<s2><W3>……<W3><s4>Naym?
+Is this elf asking me what my name is?
+<s2><W3>......<W3><s4>Name......?<s1>
+<dwarf>?此え話探図声……
+<s2><W3>……<W3><s4>?</dwarf>Naym
 
 *n_06
 <s2>Noel.
@@ -60,13 +66,16 @@ What’s...your...name?
 
 //ここから読める言葉を使い始める
 *a_07
-<s6><m fadein>...Noh-well?
+<s6><m fadein>……No-el?
+<dwarf><s6><m fadein>?......</dwarf>Noh-well
+
 
 *n_08
 Yes, that’s right.
 
 // 251109 hinayua ここは「音ではなく名前を返答する」という意味を理解してアリスが返答した、という部分なので、ドワーフ語のままでお願いします。
 *a_09
+<s3>……<s8><W5>Alice.
 <dwarf><s3>……<i><s8><W5>ありす</i>
 
 *n_10
@@ -78,6 +87,7 @@ Yes, that’s right.
 //……うん!
 
 *a_11
+......Yeah!
 <dwarf>……肯!
 
 
@@ -99,6 +109,7 @@ This is Noel. I’ve retrieved the installer.
 
 *a_14
 ……?
+<dwarf>?……
 
 *n_15
 <think>But what should I do with Alice? Take her back with me?
@@ -117,12 +128,14 @@ This is Noel. I’ve retrieved the installer.
 <think>I don’t think the others would react well to her. I’ll find a way to meet up with her later, just the two of us.
 
 *a_02
+......?
 <dwarf>?……
 
 *n_03
 Um...someone’s coming! Get out of here!
 
 *a_04
+What?
 <dwarf>?何</dwarf>
 
 *n_05
@@ -135,6 +148,9 @@ Um...someone’s coming! Get out of here!
 <dwarf><s5>………
 // 笑う
 *a_08
+<I><m scary>Ahahaha!
+<m joy>What are you trying to convey?
+
 <dwarf><I><m scary>嬉心心心!
 <m joy>?何本話君
 
@@ -151,15 +167,22 @@ Um...someone’s coming! Get out of here!
 
 //……深刻な顔してる。そっか、笑わせたいわけじゃないんだね。
 *a_11
+Your face looks so serious.
+I know......You are not joking.
 <dwarf>君見求保光
 私理……君否感遊
 
 //危険を伝えてるのかな……それにさっきの声。このエルフの声じゃなかった
 //もしかして、誰か来るって言ってる?
 *a_12
+That elf is saying something terrible......
+Besides, The sound I just heard...
+It’s not sound of this elf.
 <dwarf>其え話何恐……
 ぜ 声私得少上時 其否び声此え
 *
+If so......
+Is this elf saying that other elf is coming?
 <dwarf>例肯……
 ?此え話何人え来
 
@@ -175,10 +198,13 @@ Alice! Please!
 //……また会えるかな? ばいばい。
 
 *a_15
+You meant that I'm free to leave......
+Hope we can meet again in the future.
 <dwarf>君話了去私……
 求来時見私君
 
 *a_16
+Goodbye.
 <dwarf>悲去去
 
 *n_17
@@ -195,7 +221,8 @@ Oh thank goodness.
 Hey, Alice?
 
 *a_02
-<dwarf>?何 <W4><s4>ノエル。
+What’s up, <W4><s4>Noel?<s1>
+<dwarf>?何 <W4><s4><i>のえる</i>
 
 *n_03
 Would you come with me, please? I’d like to learn more about you.
@@ -203,6 +230,7 @@ Would you come with me, please? I’d like to learn more about you.
 
 //……一緒に来いって言ってる?
 *a_04
+......Where did you say you were taking me?
 <dwarf>……?君話を君保進を何場
 
 
@@ -211,6 +239,8 @@ Would you come with me, please? I’d like to learn more about you.
 //イヤッ! 私は行かない!
 //私はここから出たらきっと死んじゃう。だから!
 *a_05
+<m scary>No! I won’t go! Elves will kill us!!
+
 <dwarf><m scary>の! 私の進!
 えs未殺私s!!
 
@@ -227,8 +257,11 @@ It’s okay, Alice. I won’t let anybody hurt you.
 I promise.
 
 *a_10
-<s3><dwarf>…………<W2></dwarf>
-<s4c>Prom - <W4>iss?
+<s3>............<W2>
+<s4>Prom - <W4>iss？
+<s3><dwarf>…………<W2>
+<s4>?</dwarf>Prom - <W4>iss
+
 
 *n_11
 Yes, promise.
@@ -242,8 +275,8 @@ You’re safe with me.
 
 //わかった。信じる。
 *a_13
-<dwarf>私理了君……
-私見肯光
+I understand......I trust you.
+<dwarf>私理了君……私見肯光
 
 
 // ========================================================

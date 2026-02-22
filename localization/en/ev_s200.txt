@@ -30,6 +30,7 @@ I should mark their trail on my map.
 // ========================================================
 
 *200/05_escape03 a_00
+<m scary>The elf has come!
 <dwarf><m scary>え来了!
 
 *n_01
@@ -77,6 +78,8 @@ I’ll have to find a way around.
 
 // ひっ……　や……来ないで!
 *200/11_escape08 a_00
+<angry><m cry>Ahh...Ah......<m ple>Please don’t come any closer!
+*
 <dwarf><angry><m cry>ゑひ… ゑ……
 <m ple>令のく!
 
@@ -198,6 +201,9 @@ If I <c5>prepare a shotgun<c0>, I’ll at least know what’s right in front of 
 
 //a「やぁああっ！ひっ、やだ、こわい……こないで……！」
 *200/30_escape12 a_01
+<m ple>Uuuuuuuu!<W2>
+<m scary>Ahh, no, I'm so scared...Please don’t come any closer...!
+*
 <dwarf><m ple>おおおお!<W2>
 <m scary>ゑひ の わかお …令のく…!
 
@@ -207,6 +213,8 @@ I can’t leave now, she’s right there!
 
 // 子犬型がタックル
 *200/31_escape12aft a_00
+<i>Rabbie</i>!
+Come back here quickly!
 <dwarf><i>るべち</i>!
 少時間令戻此場!
 
@@ -298,6 +306,9 @@ Hold it right there!
 //*ひっ、怒ってるっ……!　にげ、にげな、きゃ。
 
 *a_01
+Ahh...That elf looks angry!
+I need to...I need to escape quickly!
+
 <dwarf>ゑひ… そえ発ふ!
 求 私求去少時間!
 
@@ -306,10 +317,14 @@ Hold it right there!
 //*ひっ、やだ! あ……ぁあ……!　た、たすけて、ころ、こ、ころされる…。
 
 *200/71_escape_floor_deadend a_02
+<m cry><W3>Ahh...!
+<W3>Dead...end...
 <dwarf><m cry><W3>悲嘆…!
 <W3>道…止…
 
 *a_03
+<m fadein>Someone...<W3>
+Please Help me......<W3>I will be killed here......
 <dwarf><m fadein>何人…<W3>
 令助私…… <W3>私未受殺此場……
 
@@ -319,6 +334,8 @@ Calm down, I’m not going to hurt you.
 I just want to talk.
 
 *a_04
+<s6>...............<s1>
+<m scary><i>Rabbie</i>!!<m0>
 <dwarf><s6>…………………<s1>
 <m scary><i>るべち</i>!!
 
@@ -333,9 +350,13 @@ I just want to talk.
 //あ、……それ以上だめ!　でも離したら……どうしよう、どうしよう!
 
 *a_06
+Oh...<m scary>Please be calm!
+<m0>Don’t fight any more...!
 <dwarf>嘆… <m scary>令忍!
 <m0>令否戦比多…!
 *
+<m fadein>But if you release that elf...
+What should I do?
 <dwarf><m fadein>然例君去其え…
 ?何物求実私
 
@@ -352,6 +373,7 @@ I’m gonna have to -
 <m ple>Oh no!
 
 *a_06
+<m ple><angry>Aahhhhhhhhhh!!
 <dwarf><m ple><angry>悲嘆嘆嘆嘆嘆!!
 
 
@@ -381,9 +403,11 @@ That was a long fall.
 
 // ううう……。
 *200/81_spidercave1 a_01
+<s3>Uuuuuu……
 <dwarf><s3>おおお……
 
 *a_04
+<m fadein><s3>Ouch...... <W3>Aahhhh...
 <dwarf><m fadein><s3>苦…… <W3>悲嘆嘆……
 
 *n_06
@@ -393,11 +417,15 @@ Are you alright?
 I can get you medical care, but first, hand over the installer.
 
 *a_07
+<angry>Ahh......!<W4><m cry>What?
+<W4><s3><m joy>in...stall...<W4>?<m0>
 <dwarf><angry>ひ嘆……!
 <W4><m cry>?何
-<W4><s3><m joy>?<i><W4></dwarf>in...stall...
+<W4><s3><m joy>?<i><W4></dwarf>inn...stawl...
 
 *a_08
+<m ple>No!
+<W3>Please don't...please don't come any closer!
 <dwarf><m ple>の!
 <W3>の 令のく!
 
@@ -410,9 +438,11 @@ Yes, that’s what I’m here for! Come on, there’s nowhere else to run!
 // -----
 //やぁ……！ あ、うしろ、うしろ見て！
 *a_09
+<angry><m scary>No......!
 <dwarf><angry><m scary>の……! 
 
 *a_10
+<m joy>Oh, Back, Please look back!
 <dwarf><m joy>嘆 後 令見後!
 
 //アリス、指差し後退り。
@@ -430,11 +460,15 @@ No! I’m not falling for any more of your tricks!
 
 // あるから、あるからぁ!
 *a_12
+<angry><m ple>I found that!
+I said that I found that!
 <dwarf><angry><m ple>私了発其!
 私了話を私了発!
  
  // もう一度話すと
 *a_20
+<angry><m ple>Back! Please look back!
+<W2>Back! Please look back!
 <dwarf><angry><m ple>後 令見後!
 <W2>後 令見後!
 
@@ -451,11 +485,12 @@ Good thing I got it back before someone used it. Without any security settings, 
 // ルベっちどこ……。
 
 *200/82_spidercave2 a_00
-<dwarf><s2>嘆……悲嘆……
-<W3>?何場び<i>るべち</i>
+<s2>Ah......Ahh......<W3>Where is <i>Rabbie</i>?
+<dwarf><s2>嘆……悲嘆……<W3>?何場び<i>るべち</i>
 
 //あの子がいないと、わたし……
 *a_02
+<m fadein><s3>I need that little one by my side...
 <dwarf><m fadein><s3>私求其仲……
 
 *n_03
@@ -469,8 +504,10 @@ Were you trying to trap me down here?
 
 //あの、わたし……ルベっちがいないと生きられなくて……。
 *a_04
+<s2><m fadein>What did you say...?
 <dwarf><s2><m fadein>?何本話君
 *
+<s3><m fadein>I don't care about that...I just want to be with <i>Rabbie</i>...
 <dwarf><s3><m fadein>比其… 私求<i>るべち</i>をび共…
 
 *n_05
@@ -479,6 +516,8 @@ Are you the one who attacked Bermit?
 
 // あの子がいなくて、その……ぐすっ探さないと……だからぁ……。
 *a_06
+<m scary>It’s not with me now...
+Aah...I need to find it...
 <dwarf><m scary>其仲のびち…
 嘆… 私求発其仲…
 
@@ -491,6 +530,9 @@ What’s wrong? I told you, I’m not going to hurt you.
 
 // ごめんなさい!ごめんなさいごめんなさい!
 *a_08
+<angry>No, <m cry>What......
+<m scary>Sorry!<W3> I apologize!
+<W3>I apologize, I apologize to you!
 <dwarf><angry>の <m cry>何を…… <m scary>恐恐! <W3>私与恐!
 <W3>私与恐私与恐を君!
 
@@ -506,6 +548,8 @@ I want to hear what you have to say, but there might be monsters around.
 
 //ぐすっ、ごめんなさい……ごめんなさい……
 *a_10
+<s3><m cry>Ahh......<m fadein>I’m sorry......
+<W2>I’m so sorry......
 <dwarf><s3><m cry>悲嘆…… <m fadein>私与恐……
 <W2>私与恐恐恐……
 
@@ -571,6 +615,7 @@ You’re safe with me.
 //杖を下ろす
 //直後、大きな魔族の鳴き声・唸り声
 *a_01
+<angry>No!
 <dwarf><angry>の!
 
 *n_02
@@ -580,8 +625,8 @@ You’re safe with me.
 <think>Oh no! That must be the monster that lives here!
 
 *a_04
-<dwarf><m scary><angry>令否実!!
-令与戻私!!
+<m scary><angry>Don’t do that!! Put me down!!
+<dwarf><m scary><angry>令否実!! 令与戻私!!
 
 *n_05
 <think>This is bad!
@@ -616,12 +661,15 @@ This is the same magic Tigrina used when we were defending Bermit!
 // もう食べられないよ
 
 *200/90_spider_after a_00
+<m fadein><s3>Father......
+I can’t eat more......
 <dwarf><m fadein><s3>大父……
 私力否得比多……
 
 // 起きる
 *a_01
-<dwarf>!
+!!!
+<dwarf>!!!
 
 *n_01
 It’s okay.
@@ -629,6 +677,8 @@ You’re not hurt, are you?
 
 // 私を殺さない……？どうして？
 *a_02
+You're not going to kill me...?
+Why......?
 <dwarf>?君否殺私
 ?……何故
 
@@ -659,9 +709,11 @@ She looks nervous. Maybe I should get out of the way and <c5>observe her<c0> for
 
 
 *200/102_spider_giving a_00
+<m scary><angry><m scary>Owwwwwwwwww!
 <dwarf><m scary><angry><m scary>嘆嘆嘆嘆嘆嘆!
 
 *a_01
+......?
 <dwarf>?……
 
 *n_02
@@ -671,10 +723,11 @@ She looks nervous. Maybe I should get out of the way and <c5>observe her<c0> for
 //2回目
 
 *a_10
-<dwarf><angry><m scary>嘆!
-私感苦苦苦苦苦!!
+<angry><m scary>Ouch! That huuuuurts!!
+<dwarf><angry><m scary>嘆! 私感苦苦苦苦苦!!
 
 *a_11
+Elf......Why did you do that?
 <dwarf>え……
 ?何故実此を私 //なんでこんなことするの?
 
@@ -684,12 +737,15 @@ She looks nervous. Maybe I should get out of the way and <c5>observe her<c0> for
 //3回目
 
 *a_20
-<dwarf><angry>苦苦苦!!
-流令否実其!!
+<angry>Owwwww! Don’t do that again!!
+<dwarf><angry>苦苦苦!! 流令否実其!!
 
 *a_21
+<m fadein><s3>It hurts...It really hurts...
 <dwarf><m fadein><s3>苦…… 私感苦
 *
+<m fadein><s3>Why? Why?
+Help me......Father......
 <dwarf><m fadein><s3>何故? 何故?
 令助…… 大父……
  
@@ -704,10 +760,14 @@ She looks nervous. Maybe I should get out of the way and <c5>observe her<c0> for
 W-What do you think of this?
 
 *a_51
+What......?
+Mana......?
 <dwarf>?何……
 ?魔光……
 
 *a_52
+<angry><m scary>No! No! Don’t come over!
+Mana will kill us!
 <dwarf><angry><m scary>の! の! 
 令のく!
 魔光未殺私s!
@@ -728,6 +788,8 @@ W-What do you think of this?
 <dwarf><s5>…………
 
 *a_62
+<W4><s3>I know you are an elf,
+so killing monsters is probably normal for you.
 <dwarf><W4><s3>私力進 故君びえ
 私見求を君殺魔種。
 
@@ -740,12 +802,16 @@ W-What do you think of this?
 ...Hmm...
 
 *a_81
+<m fadein>Elf......
 <dwarf><m fadein>え……
+*
+<m fadein>Why did you...take off your top and give it to me...?
 *
 <dwarf><m fadein>?何故君去上服……
 ?何故君与其を私…。
 
 *a_82
+<m fadein>Are you messing with me right now?
 <dwarf><m fadein>?君今遊以私。
 
 *n_83
@@ -753,10 +819,14 @@ W-What do you think of this?
 
 // 頷く
 *a_84
+<m fadein>......I can’t understand what you mean by that.
+*
 <dwarf><m fadein>……私力否理を君理。
 
  // 首を振る
 *a_85
+<m fadein>I can't...? Why did you give that to me…？
+*
 <dwarf><m fadein>?私力否……
 ?何故君与其を私……………。
 
@@ -774,6 +844,7 @@ W-What do you think of this?
 W-What do you think of these?
 
 *a_91
+This is your underwear?......
 <dwarf>?此び君的下服……
  // これはあなたの下着?
  
@@ -783,6 +854,8 @@ There’s traces of my mana on them. We could use them to lure your monster frie
  // ……えるふは、下着を着なくて平気なの?
  
 *a_93
+Is it okay if you elves don’t wear underwear?
+*
 <dwarf>?えの見求其下服
 
 *n_94
@@ -797,6 +870,8 @@ Yeah, I’m not sure what I was thinkin’ there.
 What do you think of this?
 
 *a_101
+Hmmmm......
+I don't know what that is.
 <dwarf>嘆嘆……
 私力否理そ
 
@@ -815,12 +890,17 @@ What do you think of this?
 Are you hungry?
 
 *a_111
+Food......
 <dwarf>……糧
 
 *a_111_2
+<s2>How wonderful it would be to enjoy a meal prepared by Father using the fish from here.
+
 <dwarf><s2>求例此場保魚忍飯受大父作
 
 *a_112
+<m cry><s3>Sigh......
+Father......
 <dwarf><m cry><s3>嘆……
 大父……
 
@@ -834,6 +914,7 @@ Why is this making her cry?
 Do you know what this is?
 
 *a_201
+......Are you going to give this to me?
 <dwarf>?……君与是を私
 
 *a_202
@@ -844,6 +925,7 @@ Do you know what this is?
 She must be interested.
 
 *a_204
+What happened......?
 <dwarf>?何物受連実……
 
 *n_205
@@ -855,10 +937,11 @@ Maybe I should get out of the way and <c5>observe her<c0>.
 
 
 *200/104_spider_waiting a_00
-<dwarf><m ple><i>るべち</i>……?び此場　
-<i>るべち</i>!
+<m ple><i>Rabbie</i>...?Are you there?<i>Rabbie</i>！
+<dwarf><m ple><i>るべち</i>……?び此場 <i>るべち</i>!
 
 *a_01
+<m fadein><i>Rabbie</i>......Where are you?
 <dwarf><m fadein><i>るべち</i>……?何場び君。
 
 *n_02
@@ -918,7 +1001,7 @@ Only one way to find out! I’ll have to catch up with Ixia <c5>in the mountains
 
 *200/08_rope_pre n_00
 Oh, there’s a rope.
-...but not enough headroom to walk it.
+...but...what if I fall?
 
 *n_01
 I guess I could...straddle it and inch my way across...

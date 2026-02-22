@@ -1,0 +1,752 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// ========================================================
+// MARK : キャラバンのセリフ
+// ========================================================
+
+//中央の二人組
+*___mountain/_caravan_center_t00 mb1_00
+Yo, Merch! Over here!
+
+*n_01
+Uh...are you talking to me?
+
+*mb2_02
+<m fadein>Huh? Oh, whoops!
+*
+We thought you were that elf merchant that stops by occasionally.
+
+*mb1_03
+She’s the only elf that ever comes here. I just saw the ears and thought you were her, <m scary>gahaha!
+
+// 2回目
+
+*mb1_10
+Think her name was Nightingale or something. She carries a whole pack of stuff up here from the forest.
+
+*mb2_11
+Dunno how she does it, being as skinny as she is.
+
+*mb1_12
+She’s probably stronger than you. You should try arm-wrestling her next time she’s around.
+
+*mb2_13
+Haha, I’m pretty sure I would win, but I don’t think it’s worth the potential embarrassment.
+
+
+// ========================================================
+// MARK : 孤児院・天辺施設
+// ========================================================
+
+*___mountain/_caravan_church_t00 mb_0
+This is the Mount Fallen branch of the Heavenly Facilities. We also look after orphaned children here.
+
+*mb_10
+Us beastment were born from our Father, who we were separated from when he ascended to Heaven.
+*
+In that sense, we are kindred spirits with the children we look after.
+
+
+// ちゃらそうなお姉さん
+
+*___mountain/_caravan_church_t01 mb_00
+Why do orphans even exist?
+
+*mb_01
+The Heavenly Facilities only prepare as many bodies as are needed, so there shouldn’t be any extras.
+
+*mb_02
+So then, are orphans made by accident or something?
+
+*n_03
+Well, that’s not an entirely incorrect way to phrase it, but...
+*
+You see...elves and beastmen differ in how they’re created.
+
+*mb_04
+<angry><m ple>They do!? Then, how is an elf made!?
+
+*n_05
+<m scary>W-Well...when a man and a woman get together...they...uh...
+*
+<m ple>I’m sorry, I have to go!
+
+
+//夜に話を聞く
+*mb_10
+Before I got assigned here, I failed at everything I did.
+*
+Watching over these children, playing with them...
+I think I've found my calling.
+*
+I hope one day each of them will find their passion too.
+
+
+// 獣人のシスター。小さなお墓の前で
+
+*___mountain/_caravan_church_t10 mb1_0
+This is the graveyard for elf children who passed away here.
+*
+We do not understand why our Father calls them back to him so soon, but perhaps that is not for us to know.
+*
+Their souls watch down on us all the same.
+*
+Us beastmen do not know such joy. Our souls are called back to the Mother Tree.
+*
+And when the time comes, we are given a new body and reborn at the Heavenly Facilities.
+
+*mb1_10
+Does each individual beastman even have a proper soul?
+*
+With a new body, memories, and function given to them each time, how can you tell where one soul ends and another begins?
+*
+Some have claimed that beastmen don’t have souls at all.
+*
+That we’re just empty husks doing what we’re programmed to do.
+*
+The love that I feel for each child I care for tells me otherwise.
+
+
+// ========================================================
+// MARK : 天辺施設ドア
+// ========================================================
+*___mountain/_caravan_church_door n_00
+This door is locked with a keycard reader. It says “No entry for unauthorized personnel.”
+
+
+// ========================================================
+// MARK : ファーム
+// ========================================================
+
+// 牧場作業を監督してそうな人
+*___mountain/_caravan_farm_t00 mb1_00
+There’s a great fishing spot just out past the orphanage.
+*
+Our chickens get first dibs on whatever we catch.
+*
+Children get the next bite, then the rest of us.
+*
+We don’t mind starving a little bit if it’s for the sake of our chicken and children. We’re easy to replace!
+
+*mb1_10
+Jeff told me he saw a black ghost or something come outta the water down in the caves th’ other day.
+*
+Prob’ly just a hallucination from the higher concentration of mana down there.
+*
+He’d best check his filters to make sure they’re workin’ properly, or a hallucination’ll be the least of his worries.
+
+
+*n_11
+<think>A black ghost? That sounds unrelated to the mystery girl. Still, it’s kinda creepy...
+
+// ファーストに出会っている
+*n_12
+<think>A black ghost...down in the caves...near water...
+That sounds like the fishing monster I ran into.
+
+
+// 牧場に遊びに来ている孤児院のキッズ
+
+*___mountain/_caravan_farm_t01 mb2_00
+Aren’t chickens just adorable~?
+
+*n_01
+<think>Are these really chickens?
+
+*mb2_02
+Oh, it’s eating the fish! Look at it go!!
+
+*n_03
+<think>Do chickens normally eat fish? Now I’m even more doubtful.
+
+
+// ========================================================
+// MARK : マーケット
+// ========================================================
+
+// 露天商のお姉さん
+
+*___mountain/_caravan_market_t00 n_00
+Um, excuse me.
+
+*mb1_01
+Yes? What can I do for you?
+
+*n_02
+I’m looking for someone. She looks like an elf, but she has round ears, pink hair...
+
+*mb1_03
+Sorry, I don’t know anyone like that.
+
+*mb1_04
+Try asking in the tavern. Lots of people pass through there.
+*
+I’ll keep an eye out for her, though. Does she have any other distinguishing features?
+
+*n_05
+Um...her outfit is very revealing.
+
+*mb1_06
+<m fadein>Oh-...k-a-a-y-y...
+Did you want to browse my wares?
+
+*n_07
+Yes, please.
+
+
+// ========================================================
+// MARK : 酒場
+// ========================================================
+
+//おかみさん
+
+*___mountain/_caravan_bar_t00 mb_00
+Had a Grazian soldier come in here the other day lookin’ for trouble.
+
+*mb_01
+He blamed the whole Bermit attack on us. Called us <m scary>“a bunch of lazy, good-for-nothing, slackers!”
+
+*mb_02
+I told him the beastmen in Grazia are responsible for the barrier, go yell at them.
+
+*mb_03
+But he didn’t care. If one beastman is a screw-up, we all are, I guess...
+
+
+// ---
+// 静かにちびちび酒を飲んでる（美味しくはない合成酒でも何とか日々の暮らしの大変さを紛らわすための細やかな楽しみにしている）獣人
+// ---
+// ファーレン古株の獣人。顔が広そうだ。
+
+
+*___mountain/_caravan_bar_t01 mb_00
+Hey girl. Never seen you before. What brings you around?
+
+*n_00
+I’m looking for someone.
+
+*mb_01
+A friend, I’d wager.
+
+*mb_01_2
+Why don’t you pour me a drink?
+
+*n_02
+Oh, um...okay.
+
+*mb_03
+Hehe, thanks. Drinking’s about the only fun thing to do when you get to my age.
+
+*mb_04
+So, who'r y’lookin’ for? An elf? A beastman?
+
+*n_05
+I’m actually not sure what she is.
+*
+She’s got pink hair, round ears, red eyes, and a monster that follows her around.
+
+*mb_06
+Hmm, doesn’t sound like anyone I know.
+*
+Sorry, girl.
+
+*mb_06_2
+Although...hmm...
+It’s a long shot, but you might check Tunnel One.
+
+*n_06
+Where’s that?
+
+*mb_07
+Underneath the settlement, just to the west.
+
+*mb_08
+We sealed it off after the mana plants became too much for us to handle.
+
+*mb_08_2
+<c5>Check the mine shaft where the coal elevators are<c0>. The entrance is about halfway up.
+*
+The rubble we blasted to close it off years ago shouldn’t be as sturdy as it once was.
+
+*n_10
+<c5>Halfway up the elevator shaft<c0>...
+Got it, thanks!
+
+*mb_09
+Think our security system used to run through that tunnel.
+*
+Ah, smart girl like you...you’ll figure a way around it...(hic).
+
+*mb_11
+If you find your friend, tell her to stop playin’ around with monsters. Ain’t good gettin’ ‘em all riled up like they been...
+
+
+// 酔っ払い1 (アリス発見前)
+*___mountain/_caravan_bar_t02 mb1_00
+Did I tell you what I saw the other day?
+
+*mb2_01
+No.
+
+*mb1_02
+<m scary>A ghost came out of the underground river!!
+<m0>It was black and shaped like a person!
+*
+It was all like “Woo, woo!”, and then it ran towards me and disappeared.
+
+*mb2_03
+You’re drunk.
+
+*mb1_10
+I’m telling you, I know what I saw!
+*
+We gotta report this to the boss!
+
+*mb2_11
+Go for it. He’ll put you on mining duty until you die of exhaustion for wasting his time.
+
+
+// ========================================================
+// MARK : ラボ
+// ========================================================
+
+*___mountain/_caravan_labo_t00 mb_00
+Do you know about the subterranean civilization?
+*
+Well, it’s just a theory for now, but the artifacts we’ve dug up suggest that a whole race lived underground around here.
+*
+We’re working on building a timeline based on the strata where each artifact was found.
+
+
+*mb_10
+Some of us believe the underground civilization still exists today!
+*
+The Grazian Orthodoxy even mentions “goblins” that were driven underground.
+*
+How connected the religious texts are with actual history is still unknown, though.
+*
+I’m making it my life’s work to discover the truth!
+
+
+// ========================================================
+// MARK : 電源施設へのエレベーターは閉鎖中
+// ========================================================
+
+*___mountain/_caravan_elevator_t00 mb_00
+Elevator’s dead. Must’ve been an outage at the power plant.
+*
+I’d go check on it, but a bunch of mana plants have sprouted up near the entrance.
+*
+Sigh, when it rains, it pours.
+
+*mb_10
+We’re already short-handed with all the workers they took to clean up the Grazia attack.
+*
+Now they want to take even more of us for monster extermination operations. It just never ends.
+
+
+// ========================================================
+// MARK : 第一坑道入り口でアリスと接触
+// ========================================================
+
+*200/40_mine_alice n_00
+<m ple>Ah!?
+<m0>What are you doing here!?
+
+*a_01
+!!!
+<dwarf>!!!
+
+*n_02
+<think>Actually, this is perfect. There's nowhere for her to -
+
+*n_03
+<angry>Wh-<m scary>What!?
+
+*n_04
+How did she do that?
+
+// 看板
+*board_10
+Tunnel One is hereby closed indefinitely
+due to monster occupation.
+
+// 酒場で話を聞いてる
+*n_11
+Ah, so this is the tunnel the old beastman was talking about.
+
+// 酒場で話を聞いていない
+*n_12
+Hmm, this must be an old mining tunnel the beastmen used.
+
+// 合流
+
+*n_13
+And this must be the entryway.
+
+// まだメタイベイドを持ってない
+*n_14
+I don’t see a way around the barrier...
+
+*n_15
+No matter! I’ll just have to find one!
+
+
+// 既にメタイベイドを持っている
+*n_20
+Luckily I’ve got just the thing to slip past this barrier!
+
+
+// 被弾して痺れる
+
+*200/40b_mine_thunder_hit n_00
+<angry><m scary>Kyaaaah!
+
+*n_01
+<m fadein>Ooh...ow...
+Okay, that’s not gonna work...
+
+*n_02
+No use banging my head against a wall here. I’ll have to look for a solution elsewhere.
+
+
+// オストレアと遭遇
+*200/42_ostrea_cannon s_00
+<angry><m scary>Waaaah! I’m gonna die down here! Why was I being so reckless!?
+
+*n_01
+<m ple>Hey, hey, what’s wrong!?
+
+// ついにステレオタイプなおばけまで〜
+
+// まだ名乗られてない場合
+*s_02
+Oh, it’s just you.
+
+*s_03
+We never got the chance to introduce ourselves, did we?
+
+*s_04
+My name is Ostrea. Thanks for your help earlier. My partner Walross sends his regards as well.
+
+*n_05
+Pleased to meet you. My name is Noel Cornehl.
+<MT l=-1>Wait, don’t change the subject!
+
+
+// 名乗済み
+
+*s_03_2
+Oh, it’s just you, Noel. What are you doing here?
+
+*n_05_2
+Exploring, mostly.
+<MT l=-1>Wait, don’t change the subject!
+
+
+// 合流
+*n_06
+You sounded like you were in trouble. Is everything okay?
+
+*s_07
+Far from it.
+*
+The monsters used these tunnels to get to Grazia for their most recent attack.
+*
+They wrecked everything on their way through. Even our coal elevator is busted.
+
+*s_09
+I fired up this old cannon to help clear the rubble, but I didn’t bring enough fuel.
+*
+It caused just enough of a rumble to cave-in my only exit.
+
+*s_10
+I tried a more relaxed approach to my work like Walross does, but it just doesn’t work for me. I’m a “measure twice” kind of guy.
+
+*n_11
+Well, at least you didn’t get hurt.
+
+*s_12
+Hey, I’ve got an idea. Why don’t you try firing the cannon?
+
+*n_13
+<m ple>M-Me!?
+<m0>But, you said there wasn’t enough fuel! And I didn’t bring any with me!
+
+*s_14
+Sure you did. Mana is the fuel.
+
+*s_15
+Just <c5>channel some into your staff and give it a good whack from the back</c5>.
+
+*n_16
+You mean my <c5>shotgun ability<c0>?
+
+*s_17
+Yeah, that.
+*
+<c5>It’ll take a fully charged one<c0> to get it movin’.
+
+
+// 2度目
+
+*n_30
+I’ve never fired a cannon before...
+Are you sure it’ll be alright?
+
+*s_31
+Should be. Just remember to <c5>fully charge your shotgun<c0> before striking it.
+
+*s_32
+Don’t worry about scattering excess mana everywhere. I’ve got plenty of filters on me.
+
+
+// 大砲起動・破壊
+
+*200/43_ostrea_cannon_broken s_00
+<m ple>Ohh, that was clean!<m0>
+I knew you could do it.
+
+*n_01
+It wasn’t anything special, but I’m glad it worked out.
+
+*n_02
+Looks like the elevator is still down, though...
+
+*s_03
+Yeah, we’re pretty sure the monsters damaged the power plant during their rampage.
+
+*s_04
+It’s just up ahead through that opening.
+
+*s_05
+We need to restart the power, but there’s some mana plants growing just outside the facility.
+*
+I’m not sure what to do...
+Should I assemble an extermination team?
+
+*n_06
+If it’s just a few monsters, I can take care of them.
+
+*s_07
+Really!?
+<m joy>Oh, thank you!
+
+*s_08
+Sigh, every time I think I’ve reached the end of my tale, you show up and save me.
+
+*n_08
+<think>The end of your tail?
+
+*s_09
+It’s not a proper thank you, but if you find anything useful in the power plant, feel free to take it.
+*
+There’s probably some stuff in there that’s <c5>only useful to an elf<c0>.
+
+
+//再度話しかけ
+*s_20
+The power plant is just up ahead.
+
+*s_21
+There’s some strong winds and mana plants growing nearby.
+*
+I can’t do much for you, except pray that you’ll be safe.
+
+
+// ========================================================
+// MARK : 電力設備で再起動
+// ========================================================
+
+*200/44_elec_facil_enter n_00
+It’s so dark!
+
+*n_01
+Ostrea said we need to restart the power. I should look for some kind of control panel.
+*
+I’ll just have to rely on my staff as a light source until then.
+
+*200/45_elec_facil_recover n_00
+Let’s see...power, power...
+Maybe...this button?
+
+*dev_10
+<device><s2>Switching to emergency power<s6>...<s2><W3> Success.
+<W4>Elevator operational.
+
+*n_11
+Phew, that’s the elevators taken care of. No sign of that girl here, though.
+
+*n_12
+And I don’t think there’s a button to disable the barrier in that tunnel next to the elevators. I’ll have to keep looking around.
+
+
+// 扉が電流で閉まる
+
+*200/45b_elec_facil_alert n_03
+<angry><m ple>Wah!!
+
+*dev_10
+<device>Unauthorized console access detected. Activating security barriers. All personnel evacuate immediately.
+
+*n_11
+<m scary>If it was unauthorized, why did you let me do it!?
+<m ple>What kind of security system is this!?
+
+
+// 警報状態でコンソールを調べる
+
+*n_20
+<m scary><W2>There’s gotta be a way to disable it!
+
+*dev_21
+<device>Error: Insufficient privileges. Please contact a system administrator.
+
+*n_22
+<m cry>Y-You hunk of junk!
+
+// 物置の箱を調べる
+
+
+
+*200/46a_elec_facil_search n_00
+<m scary><angry>Please let there be something useful in here!
+
+*n_01
+<I><m ple><angry>Ah!
+
+*n_02
+A skill chip! It’s old, but I bet it’s still compatible!
+
+*n_03
+Please work!
+
+//メタイベイド
+
+*200/46b_elec_facil_skill_after n_00
+Perfect! This should let me pass through the barrier!
+
+// 物置に設置されたトラップ作動
+
+*n_02
+<angry><m ple>!?
+
+*n_03
+They put an extra layer of security just for the storage room!?
+
+*n_04
+Well, we’ll just call this extra practice!
+
+
+// 脱出した
+*200/46c_elec_facil_escaped n_00
+Phew. That was dangerous. Did that girl have any hand in this?
+
+*n_01
+At least I found exactly what I needed with this new skill chip.
+
+// 第一坑道を見つけてる
+*n_02
+That was quite a detour. Let's get back to Tunnel One.
+
+// 見つけてない
+*n_10
+But still no trace of her...
+
+*n_11
+That old man in the bar said he saw her <c5>in the tunnels by the elevators<c0>. I should check there.
+
+
+// そもそも酒場で話を聞いてない
+
+*n_20
+Maybe someone back in the beastmen settlement has spotted her recently. I should ask around.
+
+// ===== ===== ===== ===== ===== =====
+// 電力回復後、施設からオービタルシールドを使い、メタイベを取らずに脱出した
+// n_01, n_02 を置き換えます
+// ===== ===== ===== ===== ===== =====
+
+*n_01_no_metaevade_0
+I didn’t explore the power plant very thoroughly. I might’ve left something behind.
+
+*n_02_no_metaevade_0
+But at least I know how to get past the barrier in the tunnel now.
+
+
+// ===== ===== ===== ===== ===== =====
+// 宝探しイベント
+// ===== ===== ===== ===== ===== =====
+// 孤児院の子供
+// 鶏の名前は重要ではないのでアレンジしてOK
+
+*___mountain/_caravan_church_treasure_t00 mb_00
+C'mere, Percy! Dinnertime!
+<m joy>Waddle waddle waddle~<m0>
+
+*n_01
+Is that the chickens name?
+
+*mb_02
+Yeah! I also take care of Sandy~!
+*
+Speaking of, she was pecking at a photo on the ground the other day.
+
+*n_03
+A photo?
+
+*mb_04
+Yeah, this one.
+*
+I have no idea what it is. Do you want it?
+
+*n_05
+Um, sure, I'll take it. Thank you.
+
+// 街の宝探しを既にやっている
+*n_06
+It looks similar to the one I got from the kid in Grazia.
+*
+I have a feeling I'm about to go on a journey.
+
+// やってない
+*n_06_2
+Maybe I should see if I can find where this was taken.
+
+// 2度目の会話
+*mb_20
+I think that's part of the bridge in the corner.
+*
+I'd go check it out myself, but the caretakers would get mad at me for wandering off.
+
+
+// 最後の一枚（釣り人の場所を示す）
+// 釣り人を見つけている
+*__treasurehunt/_final_photo n_100
+This looks like the fisherman's house.
+*
+...did he take these photos?
+
+// 釣り人を見つけていない
+//ここが山岳である
+
+*n_110
+Where could this be?
+*
+Probably somewhere nearby, I'd guess.
+
+// 山岳ではない
+
+*n_120
+Where could this be?
+*
+My first guess is <c5>somewhere in the mountains<c0.
