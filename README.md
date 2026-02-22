@@ -1,3 +1,6 @@
+<<<<<<< Updated upstream
+# DwarfInCradleTranslation
+=======
 # DwarfInCradleTranslation(DICT)
 This project is a language patch for AliceInCradle that is customized by the player community, which is an action game developed by [NanameHacha](https://nanamehacha.dev/about).
 The abbreviation of this project is "DICT", so it's supposed to use the name "DICT" when discussing the project.
@@ -18,7 +21,7 @@ Just put the "localization" folder into the game's "StreamingAssets" directory, 
 本项目是玩家社区自制的一个语言包，用于 [NanameHacha](https://nanamehacha.dev/about) 开发的动作游戏 AliceInCradle.
 本项目名称缩写为「DICT」，因此建议在讨论时这个项目时使用「词典」这个名字。
 
-具体而言，游戏第二章「幽灵」中新出场的女主角「爱丽丝」的台词使用了一种特殊的语言「矮人语」。这种语言在文本文件中使用平假名和少量汉字，但在游戏中则显示为如图 alphabet.png 所示的样子。
+具体而言，游戏第二章「幽灵」中新出场的女主角「爱丽丝」的台词使用了一种特殊的语言「矮人语」。这种语言在文本文件中使用平假名和少量汉字，但在游戏中则显示为 alphabet.png 所示的样子。
 
 因此，本项目在爱丽丝的每句台词之前添加译文，格式如下：
 
@@ -33,3 +36,4 @@ Just put the "localization" folder into the game's "StreamingAssets" directory, 
 # ドワーフ・イン・クレイドル・ツウヤク
 
 ![](DICT_Logo.png)
+>>>>>>> Stashed changes

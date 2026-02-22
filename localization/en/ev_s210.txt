@@ -150,6 +150,7 @@ What?
 *a_08
 <I><m scary>Ahahaha!
 <m joy>What are you trying to convey?
+
 <dwarf><I><m scary>嬉心心心!
 <m joy>?何本話君
 
@@ -239,6 +240,7 @@ Would you come with me, please? I’d like to learn more about you.
 //私はここから出たらきっと死んじゃう。だから!
 *a_05
 <m scary>No! I won’t go! Elves will kill us!!
+
 <dwarf><m scary>の! 私の進!
 えs未殺私s!!
 
@@ -256,7 +258,7 @@ I promise.
 
 *a_10
 <s3>............<W2>
-<s4>Pro - <W4>miss？
+<s4>Prom - <W4>iss？
 <s3><dwarf>…………<W2>
 <s4>?</dwarf>Prom - <W4>iss
 
@@ -274,8 +276,7 @@ You’re safe with me.
 //わかった。信じる。
 *a_13
 I understand......I trust you.
-<dwarf>私理了君……
-私見肯光
+<dwarf>私理了君……私見肯光
 
 
 // ========================================================
