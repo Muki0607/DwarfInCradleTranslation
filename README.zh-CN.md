@@ -13,7 +13,7 @@
 ```
 
 ## 下载
-通过Code -> Download Zip 即可下载。
+通过Code -> [Download Zip](https://github.com/Muki0607/DwarfInCradleTranslation/archive/refs/heads/main.zip) 即可下载。
 ## 安装(Windows)
 1. (可选)备份游戏路径内的 ```AliceInCradle_Data/StreamingAssets/localization```文件夹。**注意：不执行该步骤会导致无法卸载本补丁。**
 2. 复制本项目内的```localization```文件夹，并粘贴到```AliceInCradle_Data/StreamingAssets/```文件夹内，在"替换或跳过文件"中选择"替换目标中的文件"。(如果您没有收到这样的弹窗，说明您很有可能将它们粘贴到了错误的文件夹。)

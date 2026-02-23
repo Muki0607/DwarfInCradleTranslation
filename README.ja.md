@@ -12,7 +12,7 @@
 <dwarf><m scary>え来了!　　//原文
 ```
 ## ダウンロード
-Code -> Download Zipでダウンロードできます。
+Code -> [Download Zip](https://github.com/Muki0607/DwarfInCradleTranslation/archive/refs/heads/main.zip)でダウンロードできます。
 ## インストール(Windows)
 1. （任意）ゲームフォルダ内の ```AliceInCradle_Data/StreamingAssets/localization``` フォルダをバックアップしてください。**注意：この手順を実行しない場合、本パッチをアンインストールできなくなります。**
 2. 本プロジェクト内の ```localization``` フォルダをコピーし、```AliceInCradle_Data/StreamingAssets/``` フォルダ内に貼り付けてください。「ファイルの置換またはスキップ」の画面で「コピー先のファイルを置き換える」を選択してください。（このようなダイアログが表示されない場合、誤ったフォルダに貼り付けている可能性があります。）

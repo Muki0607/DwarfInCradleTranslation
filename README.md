@@ -14,7 +14,7 @@ Therefore, this project tries to add the translation before Alice's each sentenc
 ```
 
 ## Download
-You can download by Code -> Download Zip.
+You can download by Code -> [Download Zip](https://github.com/Muki0607/DwarfInCradleTranslation/archive/refs/heads/main.zip).
 
 ## Installation (Windows)
 1. (Optional) Back up the ```AliceInCradle_Data/StreamingAssets/localization``` folder in the game directory. **Note: If you skip this step, you will not be able to uninstall this patch.**
