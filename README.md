@@ -3,7 +3,7 @@
 DICT(Dwarf In Cradle Translation) is a language patch for AliceInCradle that is customized by the player community, which is an action game developed by [NanameHacha](https://nanamehacha.dev/about). After installation, this mod will add English/Simplified Chinese/Traditional Chinese/Japanese translation for all Dwarf symbols in the game, depending on the game's language.
 
 
-Specifically, a heroine "Alice" in Chapter 2 "The Ghost" uses a special language "Dwarf language". In game text files, dwarf symbols are inputted by normal ASCII code, and they will be displayed as special characters in game dialog. You can check these characters in ```alphabet.png``` under this project.
+Specifically, a heroine "Alice" in Chapter 2 "The Ghost" uses a special language "Dwarf language". In game text files, dwarf language is mostly represented using hiragana and some kanji. In the game, they are displayed as regular ideographic symbols. You can check them in ```alphabet.png``` under this project.(Except punctuation marks).
 
 Therefore, this project tries to add the translation before Alice's each sentence, so players can know their meaning at the same time. For example:
 
@@ -26,7 +26,7 @@ You can download by Code -> Download Zip.
 # 「摇篮里的矮人语」翻译工程（DICT）
 本项目(DICT, Dwarf In Cradle Translation)是玩家社区自制的一个语言包，适用于 [NanameHacha](https://nanamehacha.dev/about) 开发的动作游戏 AliceInCradle。安装后，游戏内出现的所有矮人语将会根据游戏语言，自动追加英语/简体中文/繁体中文/日语的翻译内容。
 
-具体而言，游戏第二章「幽灵」中新出场的女主角「爱丽丝」的台词使用了一种特殊的语言「矮人语」。在储存台词的文件中，矮人语通过普通的ASCII码表示。而在游戏中，它们会被转换为特殊的矮人语字符。您可以在本项目下的```alphabet.png```查看所有转换后的字符。
+具体而言，游戏第二章「幽灵」中新出场的女主角「爱丽丝」的台词使用了一种特殊的语言「矮人语」。在储存台词的文件中，矮人语主要通过平假名和部分汉字表示。而在游戏中，它们会显示成有规律的表意符号。您可以在本项目下的```alphabet.png```查看这些符号（不包括标点）。
 
 为了让玩家同时看到原文和译文，本项目在爱丽丝的每句台词之前添加译文，例如：
 
@@ -49,7 +49,7 @@ You can download by Code -> Download Zip.
 # ドワーフ・イン・クレイドル
 このモード(DICT, Dwarf In Cradle Translation)は、[NanameHacha](https://nanamehacha.dev/about) が開発されたアクションゲーム「AliceInCradle」内の人工言語を翻訳するパッチです。インストールしたら、ゲーム言語に応じて、各ゲーム内のドワーフ語の英語/簡体字中国語/繁体字中国語/日本語翻訳を追加します。
 
-第2章「The Ghost」に登場するヒロイン「Alice」は、「ドワーフ語」と呼ばれる特殊な言語を使用します。この言語は、テキストファイル上でASCIIコードで記述されていますが、ゲーム内では特殊シンボルとして変換して表示する。全てのシンボルはこのプロジェクト内の「alphabet.png」に示されている。
+第2章「The Ghost」に登場するヒロイン「Alice」は、「ドワーフ語」と呼ばれる特殊な言語を使用します。ゲームのテキストファイルで、ドワーフ語は主にひらがなと一部の漢字で表現されています。しかし、ゲーム内ではこれらは通常の表意文字で表示されます。これらの記号（句読点を除く）は、このプロジェクトの```alphabet.png```で確認できます。
 
 原文と翻訳を一緒に見えるため、テキストファイルでAliceの各セリフの前に翻訳文を追加しました。例えば：
 
@@ -71,3 +71,5 @@ Code -> Download Zipでダウンロードできます。
 
 
 
+# Alphabet.png
+![](alphabet.png)
