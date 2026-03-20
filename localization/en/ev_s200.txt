@@ -1216,3 +1216,11 @@ I don’t think you need my help figuring it out.
 Yeah, but...thank you for offering.
 
 // l_101へ
+
+
+// ========================================================
+// MARK : v029e メタイベの操作について追加
+// ========================================================
+*200/47_evadejump_tips l_00
+Having trouble using Meta-dodge?
+Try changing the input style for it in the Skills tab.
